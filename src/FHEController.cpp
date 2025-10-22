@@ -362,7 +362,7 @@ Ctxt FHEController::bootstrap(const Ctxt &c, bool timing) {
 
     auto start = start_time();
 
-    Ctxt res = context->EvalBootstrap(c);
+    Ctxt res = context->EvalBootstrap(c, 2);
 
     if (timing) {
         print_duration(start, "Bootstrapping " + to_string(c->GetSlots()) + " slots");
