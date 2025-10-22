@@ -9,5 +9,5 @@ output_file="results.txt"
 while IFS= read -r line; do
     # Run your program on each line and append the output to the results file
     echo "I am at: $line"
-    ../build/FHE-BERT-Tiny "$line" --plain >> | tee -a "$output_file"
+    ../build/FHE-BERT-Tiny "$line" --plain | tee -a "$output_file"
 done < "$input_file"
