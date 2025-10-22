@@ -9,30 +9,32 @@ void FHEController::generate_context(bool serialize, bool secure) {
 
     num_slots = 1 << 14;
 
-    parameters.SetSecretKeyDist(SPARSE_TERNARY);
-    parameters.SetSecurityLevel(lbcrypto::HEStd_128_classic);
-    if (!secure) parameters.SetSecurityLevel(lbcrypto::HEStd_NotSet);
-    parameters.SetNumLargeDigits(4); //d_{num} Se lo riduci, aumenti il logQP, se lo aumenti, aumenti memori
-    parameters.SetRingDim(1 << 16);
-    if (!secure) parameters.SetRingDim(1 << 15);
-    parameters.SetBatchSize(num_slots);
+    uint32_t levelsUsedBeforeBootstrap = 12;
+    level_budget = {4, 4};
 
-    level_budget = {3, 3};
+    if (secure) {
+        parameters.SetSecurityLevel(lbcrypto::HEStd_128_classic);
+        parameters.SetSecretKeyDist(UNIFORM_TERNARY);
+        parameters.SetRingDim(1 << 17);
+       circuit_depth = levelsUsedBeforeBootstrap + FHECKKSRNS::GetBootstrapDepth(level_budget, UNIFORM_TERNARY);
+    } else {
+        parameters.SetSecurityLevel(lbcrypto::HEStd_NotSet);
+        parameters.SetSecretKeyDist(SPARSE_TERNARY);
+        parameters.SetNumLargeDigits(4); //d_{num} Se lo riduci, aumenti il logQP, se lo aumenti, aumenti memori
+        parameters.SetRingDim(1 << 15);
+        circuit_depth = levelsUsedBeforeBootstrap + FHECKKSRNS::GetBootstrapDepth(level_budget, SPARSE_TERNARY);
+    }
+
+    parameters.SetBatchSize(num_slots);
 
     ScalingTechnique rescaleTech = FLEXIBLEAUTO;
 
-    int dcrtBits               = 52;
-    int firstMod               = 55;
+    int dcrtBits               = 59;
+    int firstMod               = 60;
 
     parameters.SetScalingModSize(dcrtBits);
     parameters.SetScalingTechnique(rescaleTech);
     parameters.SetFirstModSize(firstMod);
-
-    uint32_t approxBootstrapDepth = 4 + 4;
-
-    uint32_t levelsUsedBeforeBootstrap = 12;
-
-    circuit_depth = levelsUsedBeforeBootstrap + FHECKKSRNS::GetBootstrapDepth(approxBootstrapDepth, level_budget, SPARSE_TERNARY);
 
     cout << endl << "Ciphertexts depth: " << circuit_depth << ", available multiplications: " << levelsUsedBeforeBootstrap - 2 << endl;
 
@@ -70,98 +72,6 @@ void FHEController::generate_context(bool serialize, bool secure) {
         multKeyFile.close();
     }
     else {
-        cerr << "Error serializing EvalMult keys in \"" << "../" + parameters_folder + "/mult-keys.txt" << "\"" << endl;
-        exit(1);
-    }
-
-    if (!Serial::SerializeToFile("../" + parameters_folder + "/crypto-context.txt", context, SerType::BINARY)) {
-        cerr << "Error writing serialization of the crypto context to crypto-context.txt" << endl;
-    } else {
-        cout << "Crypto Context have been serialized" << std::endl;
-    }
-
-    if (!Serial::SerializeToFile("../" + parameters_folder + "/public-key.txt", key_pair.publicKey, SerType::BINARY)) {
-        cerr << "Error writing serialization of public key to public-key.txt" << endl;
-    } else {
-        cout << "Public Key has been serialized" << std::endl;
-    }
-
-    if (!Serial::SerializeToFile("../" + parameters_folder + "/secret-key.txt", key_pair.secretKey, SerType::BINARY)) {
-        cerr << "Error writing serialization of public key to secret-key.txt" << endl;
-    } else {
-        cout << "Secret Key has been serialized" << std::endl;
-    }
-}
-
-void FHEController::generate_context(int log_ring, int log_scale, int log_primes, int digits_hks, int cts_levels,
-                                     int stc_levels, int relu_deg, bool serialize) {
-
-    CCParams<CryptoContextCKKSRNS> parameters;
-
-    num_slots = 1 << 14;
-
-    parameters.SetSecretKeyDist(SPARSE_TERNARY);
-    //parameters.SetSecurityLevel(lbcrypto::HEStd_128_classic);
-    parameters.SetSecurityLevel(lbcrypto::HEStd_NotSet);
-    parameters.SetNumLargeDigits(digits_hks);
-    parameters.SetRingDim(1 << log_ring);
-    parameters.SetBatchSize(num_slots);
-
-    level_budget = vector<uint32_t>();
-
-    level_budget.push_back(cts_levels);
-    level_budget.push_back(stc_levels);
-
-    int dcrtBits = log_primes;
-    int firstMod = log_scale;
-
-    parameters.SetScalingModSize(dcrtBits);
-    parameters.SetScalingTechnique(FLEXIBLEAUTO);
-    parameters.SetFirstModSize(firstMod);
-
-    uint32_t approxBootstrapDepth = 4 + 4; //During EvalRaise, Chebyshev, DoubleAngle
-
-    uint32_t levelsUsedBeforeBootstrap = 12;
-
-    circuit_depth = levelsUsedBeforeBootstrap +
-                    FHECKKSRNS::GetBootstrapDepth(approxBootstrapDepth, level_budget, SPARSE_TERNARY);
-
-    cout << endl << "Ciphertexts depth: " << circuit_depth << ", available multiplications: "
-         << levelsUsedBeforeBootstrap - 2 << endl;
-
-    parameters.SetMultiplicativeDepth(circuit_depth);
-
-    context = GenCryptoContext(parameters);
-
-    cout << "Context built, generating keys..." << endl;
-
-    context->Enable(PKE);
-    context->Enable(KEYSWITCH);
-    context->Enable(LEVELEDSHE);
-    context->Enable(ADVANCEDSHE);
-    context->Enable(FHE);
-
-    key_pair = context->KeyGen();
-
-    context->EvalMultKeyGen(key_pair.secretKey);
-
-    cout << "Generated." << endl;
-
-    if (!serialize) {
-        return;
-    }
-
-    cout << "Now serializing keys ..." << endl;
-
-    ofstream multKeyFile("../" + parameters_folder + "/mult-keys.txt", ios::out | ios::binary);
-    if (multKeyFile.is_open()) {
-        if (!context->SerializeEvalMultKey(multKeyFile, SerType::BINARY)) {
-            cerr << "Error writing EvalMult keys" << std::endl;
-            exit(1);
-        }
-        cout << "EvalMult keys have been serialized" << std::endl;
-        multKeyFile.close();
-    } else {
         cerr << "Error serializing EvalMult keys in \"" << "../" + parameters_folder + "/mult-keys.txt" << "\"" << endl;
         exit(1);
     }
@@ -223,21 +133,26 @@ void FHEController::load_context(bool verbose) {
         exit(1);
     }
 
-    level_budget = {3, 3};
+    level_budget = {4, 4};
 
     if (verbose) cout << "CtoS: " << level_budget[0] << ", StoC: " << level_budget[1] << endl;
 
-    uint32_t approxBootstrapDepth = 8;
-
     uint32_t levelsUsedBeforeBootstrap = 12;
 
-    circuit_depth = levelsUsedBeforeBootstrap + FHECKKSRNS::GetBootstrapDepth(approxBootstrapDepth, level_budget, SPARSE_TERNARY);
+    const auto cryptoParams =
+        std::dynamic_pointer_cast<CryptoParametersRNS>(context->GetCryptoParameters());
+
+    circuit_depth = levelsUsedBeforeBootstrap + FHECKKSRNS::GetBootstrapDepth(level_budget, cryptoParams->GetSecretKeyDist());
 
     if (verbose) cout << "Circuit depth: " << circuit_depth << ", available multiplications: " << levelsUsedBeforeBootstrap - 2 << endl;
 
     num_slots = 1 << 14;
 }
 
+void FHEController::print_crypto_context_data() {
+    std::cout << "CKKS scheme is using ring dimension " << context->GetRingDimension() << std::endl << std::endl;
+    std::cout << "crypto params: " << *context->GetCryptoParameters() << std::endl;
+}
 
 void FHEController::generate_bootstrapping_keys(int bootstrap_slots) {
     context->EvalBootstrapSetup(level_budget, {0, 0}, bootstrap_slots);
@@ -415,7 +330,7 @@ Ctxt FHEController::add(const Ctxt &c1, const Ctxt &c2) {
     return context->EvalAdd(c1, c2);
 }
 
-Ctxt FHEController::add(const Ctxt &c1, const Ptxt &c2) {
+Ctxt FHEController::add(const Ctxt &c1, Ptxt c2) {
     return context->EvalAdd(c1, c2);
 }
 
@@ -473,75 +388,9 @@ Ctxt FHEController::bootstrap(const Ctxt &c, int precision, bool timing) {
     return res;
 }
 
-Ctxt FHEController::relu(const Ctxt &c, double scale, bool timing) {
-    auto start = start_time();
-
-    /*
-     * Max min
-     */
-    Ptxt result;
-    context->Decrypt(key_pair.secretKey, c, &result);
-    vector<double> v = result->GetRealPackedValue();
-
-    //cout << "min: " << *min_element(v.begin(), v.end()) << ", max: " << *max_element(v.begin(), v.end()) << endl;
-    /*
-     * Max min
-     */
-
-    Ctxt res = context->EvalChebyshevFunction([scale](double x) -> double { if (x < 0) return 0; else return (1 / scale) * x; }, c,
-                                              -1,
-                                              1, relu_degree);
-
-    if (timing) {
-        print_duration(start, "ReLU d = " + to_string(relu_degree) + " evaluation");
-    }
-
-    return res;
-}
-
-Ctxt FHEController::relu_wide(const Ctxt &c, double a, double b, int degree, double scale, bool timing) {
-    auto start = start_time();
-
-    /*
-     * Max min
-     */
-    Ptxt result;
-    context->Decrypt(key_pair.secretKey, c, &result);
-    vector<double> v = result->GetRealPackedValue();
-
-    //cout << "min: " << *min_element(v.begin(), v.end()) << ", max: " << *max_element(v.begin(), v.end()) << endl;
-    /*
-     * Max min
-     */
-
-    Ctxt res = context->EvalChebyshevFunction([scale](double x) -> double { if (x < 0) return 0; else return (1 / scale) * x; }, c,
-                                              a,
-                                              b, degree);
-    if (timing) {
-        print_duration(start, "ReLU d = " + to_string(degree) + " evaluation");
-    }
-
-    return res;
-}
-
-
 /*
  * I/O
  */
-
-Ctxt FHEController::read_input(const string& filename, double scale) {
-    vector<double> input = read_values_from_file(filename);
-
-    int size = static_cast<int>(input.size());
-
-    if (scale != 1) {
-        for (int i = 0; i < size; i++) {
-            input[i] = input[i] * scale;
-        }
-    }
-
-    return context->Encrypt(key_pair.publicKey, context->MakeCKKSPackedPlaintext(input, 1, circuit_depth - 10, nullptr, num_slots));
-}
 
 Ptxt FHEController::read_plain_input(const string& filename, int level, double scale) {
     vector<double> input = read_values_from_file(filename);
@@ -557,29 +406,6 @@ Ptxt FHEController::read_plain_input(const string& filename, int level, double s
     return context->MakeCKKSPackedPlaintext(input, 1, level, nullptr, num_slots);
 }
 
-Ctxt FHEController::read_repeated_input(const string& filename, double scale) {
-    //Assumption: inputs have 128 values
-    vector<double> input = read_values_from_file(filename);
-
-    vector<double> repeated;
-
-    for (int j = 0; j < 128; j++) {
-        for (int i = 0; i < 128; i++) {
-            repeated.push_back(input[i]);
-        }
-    }
-
-    int size = static_cast<int>(input.size());
-
-    if (scale != 1) {
-        for (int i = 0; i < size; i++) {
-            input[i] = input[i] * scale;
-        }
-    }
-
-    return context->Encrypt(key_pair.publicKey, context->MakeCKKSPackedPlaintext(input, 1, 0, nullptr, num_slots));
-}
-
 Ptxt FHEController::read_plain_repeated_input(const string& filename, int level, double scale) {
     //Assumption: inputs have 128 values
     vector<double> input = read_values_from_file(filename);
@@ -588,29 +414,6 @@ Ptxt FHEController::read_plain_repeated_input(const string& filename, int level,
 
     for (int j = 0; j < 128; j++) {
         for (int i = 0; i < 128; i++) {
-            repeated.push_back(input[i]);
-        }
-    }
-
-    int size = static_cast<int>(repeated.size());
-
-    if (scale != 1) {
-        for (int i = 0; i < size; i++) {
-            repeated[i] = repeated[i] * scale;
-        }
-    }
-
-    return context->MakeCKKSPackedPlaintext(repeated, 1, level, nullptr, num_slots);
-}
-
-Ptxt FHEController::read_plain_repeated_512_input(const string& filename, int level, double scale) {
-    //Assumption: inputs have 128 values
-    vector<double> input = read_values_from_file(filename);
-
-    vector<double> repeated;
-
-    for (int j = 0; j < 32; j++) {
-        for (int i = 0; i < 512; i++) {
             repeated.push_back(input[i]);
         }
     }
@@ -652,6 +455,10 @@ Ctxt FHEController::read_expanded_input(const string& filename, double scale) {
 Ptxt FHEController::read_plain_expanded_input(const string& filename, int level, double scale) {
     //Assumption: inputs have 128 values
     vector<double> input = read_values_from_file(filename);
+
+    // padds with 0's if the number of elements is less than 128
+    // otherwise causes relatively frequent decryption failures
+    input.resize(128);    
 
     vector<double> repeated;
 
@@ -780,44 +587,6 @@ void FHEController::print_expanded(const Ctxt &c, int slots, int expansion_facto
     cout << endl;
 }
 
-void FHEController::print_padded(const Ctxt &c, int slots, int padding, string prefix) {
-    if (slots == 0) {
-        slots = num_slots;
-    }
-
-    cout << prefix;
-
-    Ptxt result;
-    context->Decrypt(key_pair.secretKey, c, &result);
-    result->SetSlots(num_slots);
-    vector<double> v = result->GetRealPackedValue();
-
-    cout << setprecision(10) << fixed;
-    cout << "[ ";
-
-    for (int i = 0; i < slots * padding; i += padding) {
-        string segno = "";
-        if (v[i] > 0) {
-            segno = " ";
-        } else {
-            segno = "-";
-            v[i] = -v[i];
-        }
-
-
-        if (i == slots - 1) {
-            cout << segno << v[i] << " ]";
-        } else {
-            if (abs(v[i]) < 0.00000001)
-                cout << " 0.000" << ", ";
-            else
-                cout << segno << v[i] << ", ";
-        }
-    }
-
-    cout << endl;
-}
-
 void FHEController::print_min_max(const Ctxt &c) {
     Ptxt result;
     context->Decrypt(key_pair.secretKey, c, &result);
@@ -832,16 +601,6 @@ Ctxt FHEController::rotsum(const Ctxt &in, int slots, int padding) {
 
     for (int i = 0; i < log2(slots); i++) {
         result = add(result, context->EvalRotate(result, padding * pow(2, i)));
-    }
-
-    return result;
-}
-
-Ctxt FHEController::rotsum_padded(const Ctxt &in, int slots) {
-    Ctxt result = in->Clone();
-
-    for (int i = 0; i < log2(slots); i++) {
-        result = add(result, context->EvalRotate(result, slots * pow(2, i)));
     }
 
     return result;
@@ -867,9 +626,10 @@ Ctxt FHEController::repeat(const Ctxt &in, int slots, int padding) {
     return res;
 }
 
-vector<Ctxt> FHEController::matmulRE(vector<Ctxt> rows, const Ptxt &weight, const Ptxt &bias) {
-    vector<Ctxt> columns;
+vector<Ctxt> FHEController::matmulRE(vector<Ctxt> rows, const Ptxt &weight, Ptxt bias) {
+    vector<Ctxt> columns(rows.size());
 
+#pragma omp parallel for
     for (int i = 0; i < rows.size(); i++) {
         Ctxt m = mult(rows[i], weight);
 
@@ -877,15 +637,16 @@ vector<Ctxt> FHEController::matmulRE(vector<Ctxt> rows, const Ptxt &weight, cons
 
         if (bias != nullptr) m = add(m, bias);
 
-        columns.push_back(m);
+        columns[i] = m;
     }
 
     return columns;
 }
 
-vector<Ctxt> FHEController::matmulRE(vector<Ctxt> rows, const Ptxt &weight, const Ptxt &bias, int row_size, int padding) {
-    vector<Ctxt> columns;
+vector<Ctxt> FHEController::matmulRE(vector<Ctxt> rows, const Ptxt &weight, Ptxt bias, int row_size, int padding) {
+    vector<Ctxt> columns(rows.size());
 
+#pragma omp parallel for
     for (int i = 0; i < rows.size(); i++) {
         Ctxt m = mult(rows[i], weight);
 
@@ -893,29 +654,31 @@ vector<Ctxt> FHEController::matmulRE(vector<Ctxt> rows, const Ptxt &weight, cons
 
         if (bias != nullptr) m = add(m, bias);
 
-        columns.push_back(m);
+        columns[i] = m;
     }
 
     return columns;
 }
 
 vector<Ctxt> FHEController::matmulRE(vector<Ctxt> rows, const Ctxt &weight, int row_size, int padding) {
-    vector<Ctxt> columns;
+    vector<Ctxt> columns(rows.size());
 
+#pragma omp parallel for       
     for (int i = 0; i < rows.size(); i++) {
         Ctxt m = mult(rows[i], weight);
 
         m = rotsum(m, row_size, padding);
 
-        columns.push_back(m);
+        columns[i] = m;
     }
 
     return columns;
 }
 
-vector<Ctxt> FHEController::matmulRElarge(vector<Ctxt>& inputs, const vector<Ptxt> &weights, const Ptxt &bias, double mask_val) {
-    vector<Ctxt> densed;
+vector<Ctxt> FHEController::matmulRElarge(vector<Ctxt>& inputs, const vector<Ptxt> &weights, Ptxt bias, double mask_val) {
+    vector<Ctxt> densed(inputs.size());
 
+#pragma omp parallel for    
     for (int i = 0; i < inputs.size(); i++) {
         Ctxt i_th_result;
         for (int j = weights.size() - 1; j >= 0; j--) {
@@ -938,29 +701,31 @@ vector<Ctxt> FHEController::matmulRElarge(vector<Ctxt>& inputs, const vector<Ptx
 
         i_th_result = add(i_th_result, bias);
 
-        densed.push_back(i_th_result);
+        densed[i] = i_th_result;
     }
 
     return densed;
 }
 
 vector<Ctxt> FHEController::matmulCR(vector<Ctxt> rows, const Ctxt& matrix) {
-    vector<Ctxt> columns;
+    vector<Ctxt> columns(rows.size());
 
+#pragma omp parallel for       
     for (int i = 0; i < rows.size(); i++) {
         Ctxt m = mult(rows[i], matrix);
 
         m = rotsum(m, 64, 1);
 
-        columns.push_back(m);
+        columns[i] = m;
     }
 
     return columns;
 }
 
-vector<Ctxt> FHEController::matmulCR(vector<Ctxt> rows, const Ptxt& weight, const Ptxt& bias) {
-    vector<Ctxt> columns;
+vector<Ctxt> FHEController::matmulCR(vector<Ctxt> rows, const Ptxt& weight, Ptxt bias) {
+    vector<Ctxt> columns(rows.size());
 
+#pragma omp parallel for      
     for (int i = 0; i < rows.size(); i++) {
         Ctxt m = mult(rows[i], weight);
 
@@ -968,15 +733,16 @@ vector<Ctxt> FHEController::matmulCR(vector<Ctxt> rows, const Ptxt& weight, cons
 
         if (bias != nullptr) m = add(m, bias);
 
-        columns.push_back(m);
+        columns[i] = m;
     }
 
     return columns;
 }
 
-vector<Ctxt> FHEController::matmulCRlarge(vector<vector<Ctxt>> rows, vector<Ptxt> weights, const Ptxt &bias) {
-    vector<Ctxt> output;
+vector<Ctxt> FHEController::matmulCRlarge(vector<vector<Ctxt>> rows, vector<Ptxt> weights, Ptxt bias) {
+    vector<Ctxt> output(rows.size());
 
+#pragma omp parallel for        
     for (int i = 0; i < rows.size(); i++) {
         //Qua sotto posso fare prima add-many e poi un solo rotsum mi sa:)
         /*
@@ -998,7 +764,7 @@ vector<Ctxt> FHEController::matmulCRlarge(vector<vector<Ctxt>> rows, vector<Ptxt
 
         if (bias != nullptr) res = add(res, bias);
 
-        output.push_back(res);
+        output[i] = res;
     }
 
     return output;
@@ -1023,10 +789,10 @@ Ctxt FHEController::matmulScores(vector<Ctxt> queries, const Ctxt &key) {
 }
 
 Ctxt FHEController::wrapUpRepeated(vector<Ctxt> vectors) {
-    vector<Ctxt> masked;
+    vector<Ctxt> masked(vectors.size());
 
     for (int i = 0; i < vectors.size(); i++) {
-        masked.push_back(mask_block(vectors[i], 128 * i, 128 * (i + 1), 1));
+        masked[i] = mask_block(vectors[i], 128 * i, 128 * (i + 1), 1);
     }
 
     return context->EvalAddMany(masked);
@@ -1049,24 +815,31 @@ Ctxt FHEController::wrapUpExpanded(vector<Ctxt> vectors) {
 }
 
 vector<Ctxt> FHEController::unwrapExpanded(Ctxt c, int inputs_num) {
-    vector<Ctxt> result;
+    vector<Ctxt> result(inputs_num);
 
+    // cannot parallelize here as c gets updated    
     for (int i = 0; i < inputs_num; i++) {
-        Ctxt out = mask_mod_n(c, 128, 0,inputs_num * 128);
+        result[i] = c;
+        if (i < inputs_num - 1) c = rotate(c, 1);
+    }
+
+
+#pragma omp parallel for        
+    for (int i = 0; i < inputs_num; i++) {
+        Ctxt out = mask_mod_n(result[i], 128, 0,inputs_num * 128);
         out = repeat(out, 128);
 
-
-        if (i < inputs_num - 1) c = rotate(c, 1);
-
-        result.push_back(out);
+        result[i] = out;
     }
+
 
     return result;
 }
 
 vector<vector<Ctxt>> FHEController::unwrapRepeatedLarge(vector<Ctxt> containers, int input_number) {
-    vector<vector<Ctxt>> unwrapped_output;
     vector<int> quantities;
+
+    int vecSize = 0;
 
     for (int i = 0; i < input_number / 32.0; i++) {
         int quantity = 32;
@@ -1074,32 +847,43 @@ vector<vector<Ctxt>> FHEController::unwrapRepeatedLarge(vector<Ctxt> containers,
             quantity = input_number - (i * 32);
         }
 
+        vecSize += quantity;
         quantities.push_back(quantity);
     }
 
-    for (int i = 0; i < containers.size(); i++) {
+    vector<vector<Ctxt>> unwrapped_output(vecSize);
+  
+    int sizeBefore = 0;
+    for (int i = 0; i < quantities.size(); i++) {
+#pragma omp parallel for         
         for (int j = 0; j < quantities[i]; j++) {
-            vector<Ctxt> unwrapped_container = unwrap_512_in_4_128(containers[i], j);
-            unwrapped_output.push_back(unwrapped_container);
+             unwrapped_output[sizeBefore + j] = unwrap_512_in_4_128(containers[i], j);
         }
+        sizeBefore += quantities[i];  
     }
 
     return unwrapped_output;
 }
 
 vector<Ctxt> FHEController::unwrapScoresExpanded(Ctxt c, int inputs_num) {
-    vector<Ctxt> result;
+    vector<Ctxt> result(inputs_num);
 
+// cannot parallelize here as c gets updated    
     for (int i = 0; i < inputs_num; i++) {
-        Ctxt i_th_1 = mask_mod_n(c, 128, 0,inputs_num * 128);
-        Ctxt i_th_2 = mask_mod_n(c, 128, 64, inputs_num * 128);
+        result[i] = c;
+        if (i < inputs_num - 1) c = rotate(c, 1);
+    }
+
+#pragma omp parallel for      
+    for (int i = 0; i < inputs_num; i++) {
+        Ctxt i_th_1 = mask_mod_n(result[i], 128, 0,inputs_num * 128);
+        Ctxt i_th_2 = mask_mod_n(result[i], 128, 64, inputs_num * 128);
         i_th_1 = repeat(i_th_1, 64);
         i_th_2 = repeat(i_th_2, 64);
 
-        if (i < inputs_num - 1) c = rotate(c, 1);
-
-        result.push_back(add(i_th_1, i_th_2));
+        result[i] = add(i_th_1, i_th_2);
     }
+
 
     return result;
 }
@@ -1126,7 +910,7 @@ vector<Ctxt> FHEController::unwrap_512_in_4_128(const Ctxt &c, int index) {
     return result;
 }
 
-vector<Ctxt> FHEController::generate_containers(vector<Ctxt> inputs, const Ptxt& bias) {
+vector<Ctxt> FHEController::generate_containers(vector<Ctxt> inputs, Ptxt bias) {
     vector<Ctxt> containers;
     vector<int> quantities;
 

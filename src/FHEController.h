@@ -36,9 +36,9 @@ public:
      * Context generating/loading stuff
      */
     void generate_context(bool serialize = false, bool secure = false);
-    void generate_context(int log_ring, int log_scale, int log_primes, int digits_hks, int cts_levels, int stc_levels, int relu_deg, bool serialize = false);
     void load_context(bool verbose = true);
     void test_context();
+    void print_crypto_context_data();
 
     /*
      * Generating bootstrapping and rotation keys stuff
@@ -72,7 +72,7 @@ public:
      * Homomorphic operations
      */
     Ctxt add(const Ctxt& c1, const Ctxt& c2);
-    Ctxt add(const Ctxt& c1, const Ptxt& c2);
+    Ctxt add(const Ctxt& c1, Ptxt c2);
     Ctxt add(vector<Ctxt> c);
     Ctxt mult(const Ctxt& c1, const Ctxt& c2);
     Ctxt mult(const Ctxt& c, double d);
@@ -80,42 +80,34 @@ public:
     Ctxt rotate(const Ctxt& c, int index);
     Ctxt bootstrap(const Ctxt& c, bool timing = false);
     Ctxt bootstrap(const Ctxt& c, int precision, bool timing = false);
-    Ctxt relu(const Ctxt& c, double scale, bool timing = false);
-    Ctxt relu_wide(const Ctxt& c, double a, double b, int degree, double scale, bool timing = false);
 
     /*
      * I/O
      */
-    Ctxt read_input(const string& filename, double scale = 1);
-    Ctxt read_repeated_input(const string& filename, double scale = 1);
     Ctxt read_expanded_input(const string& filename, double scale = 1);
 
     Ptxt read_plain_input(const string& filename, int level = 0, double scale = 1);
-    //Ptxt read_plain_512_input(const string& filename, int level = 0, double scale = 1);
     Ptxt read_plain_repeated_input(const string& filename, int level = 0, double scale = 1);
-    Ptxt read_plain_repeated_512_input(const string& filename, int level = 0, double scale = 1);
     Ptxt read_plain_expanded_input(const string& filename, int level = 0, double scale = 1);
     Ptxt read_plain_expanded_input(const string& filename, int level, double scale, int num_inputs);
 
 
     void print(const Ctxt& c, int slots = 0, string prefix = "");
-    void print_padded(const Ctxt& c, int slots = 0, int padding = 1, string prefix = "");
     void print_expanded(const Ctxt& c, int slots = 0, int expansion_factor = 1, string prefix = "");
     void print_min_max(const Ctxt& c);
 
     Ctxt rotsum(const Ctxt &in, int slots, int padding);
-    Ctxt rotsum_padded(const Ctxt &in, int slots);
 
     Ctxt repeat(const Ctxt &in, int slots);
     Ctxt repeat(const Ctxt &in, int slots, int padding);
 
-    vector<Ctxt> matmulRE(vector<Ctxt> rows, const Ptxt& weight, const Ptxt& bias );
-    vector<Ctxt> matmulRE(vector<Ctxt> rows, const Ptxt& weight, const Ptxt& bias, int row_size, int padding );
+    vector<Ctxt> matmulRE(vector<Ctxt> rows, const Ptxt& weight, Ptxt bias );
+    vector<Ctxt> matmulRE(vector<Ctxt> rows, const Ptxt& weight, Ptxt bias, int row_size, int padding );
     vector<Ctxt> matmulRE(vector<Ctxt> rows, const Ctxt& weight, int row_size, int padding );
-    vector<Ctxt> matmulRElarge(vector<Ctxt>& rows, const vector<Ptxt>& weight, const Ptxt& bias, double mask_value = 1);
-    vector<Ctxt> matmulCR(vector<Ctxt> rows, const Ptxt& weight, const Ptxt& bias );
+    vector<Ctxt> matmulRElarge(vector<Ctxt>& rows, const vector<Ptxt>& weight, Ptxt bias, double mask_value = 1);
+    vector<Ctxt> matmulCR(vector<Ctxt> rows, const Ptxt& weight, Ptxt bias );
     vector<Ctxt> matmulCR(vector<Ctxt> rows, const Ctxt& matrix);
-    vector<Ctxt> matmulCRlarge(vector<vector<Ctxt>> rows, vector<Ptxt> weights, const Ptxt& bias);
+    vector<Ctxt> matmulCRlarge(vector<vector<Ctxt>> rows, vector<Ptxt> weights, Ptxt bias);
 
     Ctxt matmulScores(vector<Ctxt> queries, const Ctxt& key);
 
@@ -126,7 +118,7 @@ public:
     vector<Ctxt> unwrapScoresExpanded(Ctxt c, int inputs_num);
     vector<Ctxt> unwrap_512_in_4_128(const Ctxt& c, int index);
 
-    vector<Ctxt> generate_containers(vector<Ctxt> inputs, const Ptxt& bias);
+    vector<Ctxt> generate_containers(vector<Ctxt> inputs, Ptxt bias);
     Ctxt wrap_containers(vector<Ctxt> inputs, int inputs_number);
 
     Ctxt mask_block(const Ctxt& c, int from, int to, double mask_value = 1);
@@ -149,7 +141,6 @@ public:
     vector<Ctxt> load_vector(string filename);
     Ctxt load_ciphertext(string filename);
 
-    int relu_degree = 119;
     string parameters_folder = "keys";
 
 private:

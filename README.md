@@ -16,7 +16,7 @@ In order to run the program, you need to install:
 - `g++` or `clang`
 - `OpenFHE` ([how to install OpenFHE](https://openfhe-development.readthedocs.io/en/latest/sphinx_rsts/intro/installation/installation.html))
 
-N.b. The algorithm has been tested in OpenFHE v1.0.4
+N.b. The algorithm has been tested in OpenFHE v1.4.0
 
 Plus, since the tokenization process (done by the client) relies on PyTorch:
 - `python`
@@ -28,7 +28,7 @@ After intalling all the required prerequisites, install the required Python libr
 pip install -r src/python/requirements.txt
 ```
 
-Then, it is possible to generate the set of keys for the CKKS scheme. Go to the `build` folder:
+Then, it is possible to generate the set of keys for the CKKS scheme. Run cmake and make to build the package. Go to the `build` folder:
 
 ```
 cd build
@@ -65,6 +65,12 @@ and the optional `[OPTIONS]` parameters are:
 
 - `--verbose` prints information during the evaluation of the network. It can be useful to study the precision of the circuit at the end of each layer
 - `--plain` adds the result of the plain circuit at the end of the FHE evaluation
+
+To run the plaintext version, cd to `src` and run the following (replace the string as desired):
+
+```
+python3 python/PlainCircuit.py "Dune part 2 was a mesmerizing experience, movie of the year?"
+```
 
 ## Architecture
 

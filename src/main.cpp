@@ -1,4 +1,6 @@
 #include <iostream>
+#include <filesystem>
+
 #include "FHEController.h"
 #include <chrono>
 
@@ -19,7 +21,7 @@ Ctxt pooler(Ctxt input);
 Ctxt classifier(Ctxt input);
 
 //Set to True to test the program on the IDE
-bool IDE_MODE = true;
+bool IDE_MODE = false;
 
 string input_folder;
 
@@ -36,7 +38,10 @@ int main(int argc, char *argv[]) {
     setup_environment(argc, argv);
 
     if (p == Parameters::Generate) {
-        system("mkdir -p ../keys");
+        if ( system("mkdir -p ../keys") != 0) {
+          std::cerr << "Failed to create ../keys directory" << std::endl;
+          return 1;
+        }
         controller.generate_context(true, security128bits);
         vector<int> rotations = {1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, -1, -2, -4, -8, -16, -32, -64};
         controller.generate_bootstrapping_and_rotation_keys(rotations, 16384, true, "rotation_keys.txt");
@@ -46,7 +51,12 @@ int main(int argc, char *argv[]) {
         controller.load_bootstrapping_and_rotation_keys("rotation_keys.txt", 16384, false);
     }
 
-    system("mkdir -p ../checkpoint");
+    if (verbose) controller.print_crypto_context_data();
+
+    if (system("mkdir -p ../checkpoint") != 0) {
+        std::cerr << "Failed to create ../checkpoint directory" << std::endl;
+        return 1;
+    }
 
     if (verbose) cout << "\nSERVER-SIDE\nThe evaluation of the circuit started." << endl;
 
@@ -71,6 +81,9 @@ int main(int argc, char *argv[]) {
 
     Ctxt classified = classifier(pooled);
 
+    int timing = (duration_cast<milliseconds>( high_resolution_clock::now() - start)).count() / 1000.0;
+    if (verbose) cout << endl << "The evaluation of the FHE circuit took: " << timing << " seconds." << endl;
+
     if (verbose) cout << "The circuit has been evaluated, the results are sent back to the client" << endl << endl;
     if (verbose) cout << "CLIENT-SIDE" << endl;
 
@@ -79,9 +92,6 @@ int main(int argc, char *argv[]) {
 
     vector<double> plain_result = controller.decrypt_tovector(classified, 2);
 
-    int timing = (duration_cast<milliseconds>( high_resolution_clock::now() - start)).count() / 1000.0;
-    if (verbose) cout << endl << "The evaluation of the FHE circuit took: " << timing << " seconds." << endl;
-
     if (plain) {
         cout << "Outcomes:" << endl << "FHE              : ";
         if (plain_result[0] > plain_result[1]){
@@ -89,9 +99,16 @@ int main(int argc, char *argv[]) {
         } else {
             cout << "positive sentiment!" << endl;
         }
-        system(("python3 ../src/python/PlainCircuit.py \"" + text + "\"").c_str());
-        system(("python3 ../src/python/Precision.py \"" + text + "\" " + "\"[" + to_string(plain_result[0]) + ", " +
-                to_string(plain_result[1]) + "\" " + to_string(timing)).c_str());
+        if ( system(("python3 ../src/python/PlainCircuit.py \"" + text + "\"").c_str()) != 0) {
+          std::cerr << "Failed to run PlainCircuit.py" << std::endl;
+          return 1;
+        }
+
+        if ( system(("python3 ../src/python/Precision.py \"" + text + "\" " + "\"[" + to_string(plain_result[0]) + ", " +
+                to_string(plain_result[1]) + "\" " + to_string(timing)).c_str()) != 0) {
+          std::cerr << "Failed to run Precision.py" << std::endl;
+          return 1;
+        }
     } else {
         cout << "Outcome: ";
         if (plain_result[0] > plain_result[1]){
@@ -101,16 +118,18 @@ int main(int argc, char *argv[]) {
         }
     }
 
+    return 0;
 
 }
 
 Ctxt classifier(Ctxt input) {
     Ptxt weight = controller.read_plain_input("../weights-sst2/classifier_weight.txt", input->GetLevel());
-    Ptxt bias = controller.read_plain_expanded_input("../weights-sst2/classifier_bias.txt", input->GetLevel());
 
     Ctxt output = controller.mult(input, weight);
 
     output = controller.rotsum(output, 128, 1);
+
+    Ptxt bias = controller.read_plain_expanded_input("../weights-sst2/classifier_bias.txt", output->GetLevel());
 
     output = controller.add(output, bias);
 
@@ -134,11 +153,12 @@ Ctxt pooler(Ctxt input) {
     double tanhScale = 1 / 30.0;
 
     Ptxt weight = controller.read_plain_input("../weights-sst2/pooler_dense_weight.txt", input->GetLevel(), tanhScale);
-    Ptxt bias = controller.read_plain_repeated_input("../weights-sst2/pooler_dense_bias.txt", input->GetLevel(), tanhScale);
 
     Ctxt output = controller.mult(input, weight);
 
     output = controller.rotsum(output, 128, 128);
+
+    Ptxt bias = controller.read_plain_repeated_input("../weights-sst2/pooler_dense_bias.txt", output->GetLevel(), tanhScale);    
 
     output = controller.add(output, bias);
 
@@ -262,7 +282,7 @@ Ctxt encoder2(vector<Ctxt> inputs) {
         output[i] = controller.bootstrap(output[i]);
     }
 
-    vector<vector<Ctxt>> unwrappedLargeOutput = controller.unwrapRepeatedLarge(output, output.size());
+    vector<vector<Ctxt>> unwrappedLargeOutput = controller.unwrapRepeatedLarge(output, inputs.size());
 
     if (verbose) cout << "The evaluation of Intermediate took: " << (duration_cast<milliseconds>( high_resolution_clock::now() - start)).count() / 1000.0 << " seconds." << endl;
     if (verbose) controller.print(unwrappedLargeOutput[0][0], 128, "Intermediate (Containers)");
@@ -442,7 +462,10 @@ void setup_environment(int argc, char *argv[]) {
 
     if (IDE_MODE) {
         filesystem::remove_all("../src/tmp_embeddings");
-        system("mkdir ../src/tmp_embeddings");
+        if ( system("mkdir ../src/tmp_embeddings") != 0) {
+          std::cerr << "Failed to create ../src/tmp_embeddings directory" << std::endl;
+          exit(1);
+        }
 
         input_folder = "../src/tmp_embeddings/";
 
@@ -450,7 +473,10 @@ void setup_environment(int argc, char *argv[]) {
         cout << "\nCLIENT-SIDE\nTokenizing the following sentence: '" << text << "'" << endl;
         command = "python3 ../src/python/ExtractEmbeddings.py \"" + text + "\"";
 
-        system(command.c_str());
+        if ( system(command.c_str()) != 0) {
+          std::cerr << "Failed to run ExtractEmbeddings.py" << std::endl;
+          exit(1);
+        }
 
         verbose = true;
         return;
@@ -474,7 +500,10 @@ void setup_environment(int argc, char *argv[]) {
 
         //Removing any previous embedding
         filesystem::remove_all("../src/tmp_embeddings/");
-        system("mkdir ../src/tmp_embeddings");
+        if ( system("mkdir ../src/tmp_embeddings") != 0 ) {
+          std::cerr << "Failed to create ../src/tmp_embeddings directory" << std::endl;
+          exit(1);
+        }
 
         input_folder = "../src/tmp_embeddings/";
 
@@ -491,7 +520,10 @@ void setup_environment(int argc, char *argv[]) {
 
         if (verbose) cout << "\nCLIENT-SIDE\nTokenizing the following sentence: '" << text << "'" << endl;
         command = "python3 ../src/python/ExtractEmbeddings.py \"" + text + "\"";
-        system(command.c_str());
+       if ( system(command.c_str()) != 0 ) {
+          std::cerr << "Failed to run ExtractEmbeddings.py" << std::endl;
+          exit(1);
+        }
     }
 
 }

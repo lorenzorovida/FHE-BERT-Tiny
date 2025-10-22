@@ -10,9 +10,15 @@ endif()
 set(CMAKE_CXX_STANDARD 17)
 option( BUILD_STATIC "Set to ON to include static versions of the library" OFF)
 
-find_package(OpenFHE)
+find_package(OpenFHE 1.4.0)
 
-set( CMAKE_CXX_FLAGS ${OpenFHE_CXX_FLAGS} )
+if(OpenFHE_FOUND)
+    message(STATUS "OpenFHE found: version ${OpenFHE_VERSION}")
+else()
+    message(FATAL_ERROR "OpenFHE not found")
+endif()
+
+set( CMAKE_CXX_FLAGS "${OpenFHE_CXX_FLAGS} -Wno-sign-compare" )
 
 include_directories( ${OPENMP_INCLUDES} )
 include_directories( ${OpenFHE_INCLUDE} )
