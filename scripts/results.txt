@@ -1,0 +1,3790 @@
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.04451026 -0.61479887]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.48441664  2.32444676]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.46174632  1.51908519]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.29751037 -1.99497651]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.50773862  2.36821833]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.74801764 -1.52980255]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.39083732 -1.20271532]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.9701358  1.9296619]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.11603936 -1.7757533 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.48657803  2.36721853]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.54215931  0.67841457]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.48758152 -0.28682171]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.04152727 -0.67979604]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.85999747  2.70745557]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.03190478  1.97016631]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.15587168 -1.90782054]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.44963359 -0.1989724 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [-0.00864027  0.17457044]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.1953331  -0.77632381]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.02069898  1.05033247]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.64985976 -1.36659519]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.93122185 -0.63829287]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.40633576  2.24422724]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.21449856 -0.88175123]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.78164585 -1.35479338]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.5853083   2.43651955]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [-0.41278904  0.47295949]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.75950939 -1.44467313]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.84207712 -1.61814105]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.07766721  0.24358665]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.96946475  1.11267093]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.73121396  2.58036999]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.07155533 -0.65559773]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.70868029  2.55499939]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [-0.08650855  0.21056922]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.54420769 -0.16525534]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.60526837  2.49883175]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.01106232  2.01439465]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.48796264 -1.12054718]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.07913826 -0.79476072]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.45481241  2.28510699]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.43964252 -0.12756186]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.10934136  2.02437026]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.65263563 -0.16365992]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.83123324  2.72003278]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.79594243 -0.50496213]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.8134085  -1.38631485]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [0.04311586 0.14561268]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.12937274 -0.72017663]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.38394464 -1.04231549]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.96847327 -0.64513516]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.28199229  2.13907298]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.10606797 -0.77967112]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.03066257 -0.65001704]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.17604294 -0.08127803]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [ 0.29494165 -0.11573512]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.39646834 -0.0861327 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.15776236  1.17892269]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.75494143  2.58872069]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.68389477  2.50036089]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [ 0.09976555 -0.00850377]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.62415642 -1.29950014]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.02726806  2.02971466]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.90116279 -1.64554292]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.36693081  1.32040067]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.11256045  1.17749946]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.30733986 -0.94113082]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.51414177  2.39209777]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.86096347 -1.58443652]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [0.30124748 0.0177829 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.42755522  0.43542928]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.22220927  2.17171839]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.93861294  1.9056069 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.61065729 -1.32076729]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.64780687 -0.47597946]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [ 0.2665602  -0.12070304]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.9387775  -0.62720447]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.69831968  0.79509183]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.01100788  2.00212665]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.28477921  0.41373389]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [0.30206778 0.01765709]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.9665999   1.93972558]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.18891524 -0.84961593]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.58015445  0.80002704]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.58622745 -1.33257798]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.79383853 -1.48555045]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.07057546  1.20228392]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.44862937  1.46237345]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.515281    2.44239674]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.78000254  0.76669848]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.62374155 -1.28956262]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.22080333  1.25453448]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.10579137 -0.84966051]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.33893544 -0.90620891]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.13483826  1.2390755 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.14872745 -0.91268061]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.60398402  0.6364648 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.4698329  -1.18359473]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.0011794   1.09291828]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.31663352  0.38322215]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.37550296  1.40626817]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.4802606   1.52740955]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.48301746  1.53980067]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.81067083 -0.49546115]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.50312296  2.37087378]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.5503967  -0.29415211]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.93321609  1.98268083]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.33770029 -0.87017085]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.40761422 -0.12254105]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.35232536  2.23132493]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.30127928 -1.97126023]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.10432142  0.18071298]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.01713626  1.01963781]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.30252426 -2.11775011]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [-0.16715608  0.14583314]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [0.05027565 0.16312826]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.45243352 -1.13385141]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.8357279   1.79890395]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.43473315 -1.13497316]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.05577299 -1.64624868]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.76294999  2.63780831]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.54666477 -1.31392608]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [0.07328956 0.19207296]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.96587804 -0.52119332]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.85768707 -1.62773076]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.51595282  0.50554555]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.41788122 -1.06248048]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.16921498  2.09132644]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [ 0.28042584 -0.14703499]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.66862402  2.50277596]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [0.29183876 0.00514937]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.83864514 -1.51154299]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.58623171  2.49893188]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.58856797 -1.27834721]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.93452712  1.90264881]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.04872503 -0.74617691]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.36895782  0.54931985]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.34875383  0.43420322]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.80226253 -0.46153471]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.6516539 -1.4038829]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.54287675 -1.19774134]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.91921003 -0.68525622]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.16643855  1.34526868]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.01367235 -0.73537015]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.4221714  -1.11613662]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.33933075  2.31593844]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.67292503  0.6619306 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.86356733  1.15640255]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.52000854 -1.21852889]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.95234894  1.86568144]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.28358456  1.31483518]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.09128126  1.15376965]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.81104639 -0.44475937]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.20550358  0.17349774]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.23890532  2.21700918]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.34980628 -0.96547762]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.96019256 -1.67381327]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [0.03646093 0.10186509]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.73528743 -0.34985496]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [-0.29851751  0.37165998]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.59894058  2.41338226]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [ 0.42565521 -0.04966984]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.36916425 -0.93508548]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.55611347 -1.20028937]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.67916258  2.50543494]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.67900393  1.65000034]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [0.2129756  0.10092535]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.46906539 -0.99393188]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.9816204  -0.68128714]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.10857931 -1.79892958]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.55780019  2.41594102]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.34919797 -0.16402082]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.58865051  0.65645282]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.3951844   0.44063035]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.34661246 -0.91025499]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.56895446 -1.36993324]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.68241663  2.47980239]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.10372894 -0.67826312]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.20150645 -0.87917   ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.43685973  0.43428525]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.12945533 -0.74986847]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.3310794  -2.06511691]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.10301621  0.27393787]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [0.28458604 0.05184838]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.11025883 -0.68614448]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [0.06956349 0.13884704]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.24788513  0.5180517 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [0.05414513 0.22945105]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.33901853 -2.00124077]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.48726928  2.3012642 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.86354282  0.94876248]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.01608061  0.02616734]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.07573858  1.06497017]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.56849609 -1.26015203]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.20628969  2.1459458 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.69916637  2.50447765]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.18414935 -0.83913189]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.54072875  0.7617965 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.41478514  2.32707786]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.50752474 -1.23035139]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.27784428 -0.96894669]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.85359103  1.76324333]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.06080563  0.17808665]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.14953455 -0.83447472]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.62166503 -1.35891078]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.07345495 -0.7446134 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.69569702  2.52644042]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.01039522  1.09370247]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.90913868 -1.64026983]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.84216596 -1.45418744]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.21752278  0.42491693]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.97836606  1.03916575]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [0.04601657 0.06498507]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.34843943  1.37723499]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.72133357 -0.3845141 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.20814777  0.28959568]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.19679148 -0.74423605]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.34688648  1.38507193]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.81012941 -1.44316819]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.44873069  2.38493156]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.82686029  0.84396544]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.64532367 -1.36003359]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.80344484 -1.53359734]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.2305194 -0.850531 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.16233763 -1.79861784]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.66500443 -1.36097822]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.41919476  2.29645671]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.29930139 -0.11419946]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.11993177 -0.73375305]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.54228387  2.40545668]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.05735766 -0.67908375]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.28741673  1.2863679 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.75288027 -0.43035524]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.97675102  0.9994219 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.57951026 -1.24878602]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.29390302 -0.16883902]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.94188529  1.19000202]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.75736506 -1.56076008]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.68250299 -1.25931412]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.69175994 -1.47082726]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.7351036   0.86155678]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.30233745  0.62096717]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.67606087  1.64184423]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.09988124 -1.81648358]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.08863555  1.9269013 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.69363092  0.77656217]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.51813953 -1.25816947]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.43366195  2.28243265]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.50200114 -1.276435  ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.05363343 -0.72327157]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.20107191  2.15693312]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.56217341  1.5560044 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.0063954  -0.66584716]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.12449491  1.15075888]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.9988688  -0.68104983]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.15321884  2.11918385]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.43040974  1.51506713]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.7466975   0.76188009]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.46386251  2.40348789]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.95178843 -0.65532524]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.42225401  2.28795733]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.64677825  1.66976443]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.89904657  1.89827845]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.30703383  1.27164987]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.07379064 -0.72168786]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [0.04864396 0.2897868 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.65121021  2.47244155]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.94027165  1.84280187]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.75264802  0.7913238 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.65086914  0.62686076]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.76649506  0.79187966]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.92517935  1.97224343]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.02901408  1.92317017]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.87834304 -1.56627918]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.44797218 -0.12905801]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.19358648 -1.85573659]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.39717975 -2.12496039]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.97096576 -1.64438461]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.91756386 -1.5877735 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.17333561  0.33941608]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.32410808  1.3529293 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.05084762  1.20648426]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [0.24601551 0.03515691]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.90468293 -1.56531568]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.46249913 -1.26057784]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.92753346  1.88822889]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.6086621   2.43747698]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.22365265  0.28615748]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.72065481  1.71412186]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.75134926 -1.51342384]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.67446318  2.51640823]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.26059748 -0.89121662]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.84153444  1.84296297]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.14634507 -1.8440966 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.42900634 -2.25081757]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.71914643  0.82677779]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.76132364  1.69288543]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.3803831  -2.10279402]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.71266009 -0.41696582]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.13915325 -0.66223398]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.3000461  -0.88920967]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.51456654  1.55918519]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.48209504  2.39270927]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.47072308  2.40050799]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [0.38497345 0.07427882]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.39433105 -0.93876279]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.44775765 -0.22913104]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.70243571 -1.44710717]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.11224474 -0.77642275]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.04331935  2.00036892]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.64270539 -1.415584  ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.56421079  2.37795394]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.56083374 -1.25194221]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.88379472 -1.55619439]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.68482857 -1.38258424]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.36898908  0.56631189]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.92453043  1.90278304]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.14496703 -0.67979961]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.33437319  1.31056877]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.09225702 -1.74765467]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.10955978 -0.76038545]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.31662846 -0.90628474]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.74386506 -0.37964586]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.64425799 -1.38459562]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.59457856 -1.25263313]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.18706428 -0.79028764]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.52770702 -2.23506407]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.39018463  2.24049859]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.56332206  2.45871059]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.91353989 -0.60215596]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.31790003  1.33078319]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.84690638  2.71160719]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.77250018  2.65129901]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.2909765  -1.99570832]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.46648986  1.46450829]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.42804994 -2.1853663 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.73188176 -1.40023291]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.7155372  -1.35771258]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.80825422  2.6473117 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.62396504 -0.31037045]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.36431052 -0.13591264]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.67014627 -1.30489266]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.7333193  -0.35736252]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.02702562  1.13342734]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.25993575  1.33840447]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.34940453 -2.09379465]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.37422228  2.23535431]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.33460244  2.27972929]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.85461209  0.83731285]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.79421553 -0.53863749]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.24221749 -0.77461544]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.1120165  -1.80464908]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.20140324 -0.04683205]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.76041626 -1.28112729]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [0.25002347 0.10074555]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.34485996  2.22198105]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.70325209  1.86728253]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.73682262  2.55259342]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.7067683   1.73103878]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.21441826 -1.86292335]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.31179187 -0.19775706]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.84172228 -0.38753066]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.93326942 -0.52321627]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.93684809  0.91286652]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.53650863  2.41663346]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.01067213  0.14051383]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.64715558  2.48921038]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.80314411  1.94501044]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.74174091 -1.31002826]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.47365847 -1.32764123]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.00591008 -1.78446917]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.07786669 -0.66315976]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.48823893 -2.2805953 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.51102687  2.39707178]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.17506076  1.1868587 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.73555569  2.5504617 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.81301355  1.69260852]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.60877156 -1.28356184]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.75867548  2.61152606]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.29258542 -0.87737858]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.56841411  0.67034689]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.93935477 -0.52831698]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.17597834  0.31505313]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.56167542 -1.19085039]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.01853793  0.2867355 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.64498077  2.48877771]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.22593653  0.3069551 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.00645522  1.95612797]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [-0.07386322  0.22844866]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.97136227 -0.58701272]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.46458789  2.34315352]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.06648307  2.047783  ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.92569939  1.90813602]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.94200744 -0.61403944]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.38707097 -1.14091571]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.45629454 -1.18932983]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.71882265  1.7582889 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.18332895 -0.78750327]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.79839989  1.74958463]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.40527104  1.39659   ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.24794855  2.12438473]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.18529717 -1.91121063]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.79027515  0.94479437]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.29583382 -1.96122636]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.13432599  2.09265173]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.18080067 -1.90185151]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.50935529 -1.14647401]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.11890361  0.31816368]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.67362386 -0.37656325]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.7907043   2.62245113]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.48097012 -0.2702479 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.46852582  0.60202623]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.51010724  0.67474417]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [0.14568677 0.01351562]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.35540057  2.28985901]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.21882549 -0.87936773]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.09258347 -0.75996154]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.67943448  2.53145195]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.03878509 -0.62442503]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.39244225 -2.07518668]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.67280902 -0.2728111 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.86820353  2.72775615]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.407018   -2.11629811]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.38374443 -0.2245024 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.57846022 -0.23950914]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.67979463 -0.32484626]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.65684176 -1.3576367 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.49338336  2.3762554 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.51130315  0.57671551]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.46562648 -1.14272953]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.88154891  0.92066633]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.35501015 -2.12452831]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.00156556 -1.6597    ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.75683693  0.83268083]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [0.19813581 0.10571798]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.49392773  2.40061799]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.56292203  0.816045  ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.72142611  2.56737498]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.36066573  2.23042119]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.38822896 -1.09914209]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.97181469  1.94269222]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.33831708  2.22953651]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.09081328 -0.69645441]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.49628148 -1.18201942]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.18545895 -0.05019119]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.47292861 -0.17115708]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.38556562  0.56813637]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.25122595  1.25018646]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.27398465 -0.92783888]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.25375457 -0.91093132]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.78649962  2.5997294 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.74758869  1.68116129]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.49033948  2.40521731]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.94337957 -0.57853823]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.25288526  0.5353151 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.22771703  1.2694451 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.52609705 -1.2487662 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [-0.05245754  0.18557185]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.53938854  1.61029075]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.43976415  1.60719538]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.20437405  2.29825131]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.06619528 -0.7824949 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.35909381  2.22893702]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.66176983 -1.30433074]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.47903685 -1.08467848]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.15952168 -0.79471907]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.77783285  2.6168515 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [0.38582039 0.02895841]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.6046498  -0.35968035]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.35055417  2.21497216]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.83889097 -0.49789864]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.31826369  0.43592986]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.8024325  -0.35683893]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.92081544  1.07069695]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.67344451 -2.49903316]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.33330307 -2.04386162]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.94762919 -1.58171304]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.59510102 -0.26286796]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.90364069 -1.65614499]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.98793888 -0.73287135]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.4812851  -2.26897461]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.65392116  2.50589776]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [0.06509955 0.16572237]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.53990121 -1.19433989]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.57264262 -0.3173275 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.09188129  0.24877973]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.04297717  1.95357067]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.77054444 -1.44962598]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.77745757  2.64177585]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.39896704 -1.13755497]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.00247604  1.96250468]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.32993508 -0.94140021]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.10538243  2.03721173]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.86613006 -0.43723326]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.50037036 -1.14518789]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.26752388  2.41169208]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.01766178 -0.68364053]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [-0.43626903  0.66775154]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.68866845  0.74571961]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.53131665 -1.1250308 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.37742774  0.64249881]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.44468366 -0.09010185]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.42848177 -1.09021729]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.26356813 -0.86618885]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [0.02658281 0.174489  ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.34435824 -1.07560869]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.81076699 -0.46762158]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.406925   -1.17282527]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.68700804 -1.34447008]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.41595785 -2.04145559]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.89125302 -0.58483115]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.13502874  2.02281449]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.63897354  2.44770067]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.71940695 -0.37528139]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.52479707  0.65763389]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.92463165 -0.53945382]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.18218239 -1.91393809]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.56441651 -2.26781524]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.10891532 -0.76552486]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.20992952 -0.86811077]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.38888641 -0.02869684]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.84829606  2.66173853]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.02856397  0.22452927]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.32775099  1.30699261]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.28442432 -0.86591209]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.70840869 -0.15428712]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.96349801  1.00081421]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [-0.0816309  0.1816635]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.17362008 -1.73008691]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.35015637  1.40673143]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.63915499 -1.34549563]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.07538243  1.99615317]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [ 0.45680654 -0.35115049]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.27411129  0.53362908]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.21839928  1.28047999]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [0.05614023 0.13369676]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.51593063 -0.25579399]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.69725248 -1.41478863]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.49871303 -0.11043061]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.49675635  2.30357348]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.15308269  2.10106845]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [ 0.32922912 -0.09619215]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.3930863   2.27068433]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.80680982  2.66674389]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.47356057 -1.24568627]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.06057445  2.05588844]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.17743297 -0.82496373]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.80124337 -1.42349736]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.65812571  0.81962364]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.6531806 -2.4112817]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.20404269  1.34523466]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.22458659  1.20454192]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.48904492 -2.33107338]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.05429766 -1.85211115]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.20489008  1.36254703]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.045462   -1.79783648]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.66874133  2.54361712]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.19523507  1.28295839]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.06363223 -1.77893396]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.18471759 -0.06283765]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.43041387  1.40536479]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.31609046 -2.09653793]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.22558866  2.15966597]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.33361559 -2.00947872]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.36791406  0.46313581]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.29317649 -0.94223341]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.6606367   2.48929627]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.6005746 -0.3358249]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [0.21630584 0.09556771]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.88663205  0.87199767]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [0.27349342 0.19086663]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.71879216 -1.40325811]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.73633743  0.7492023 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.07509185  1.1834618 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.57830724  1.58554407]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.3765197   0.54250124]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.58393451 -1.27777241]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.62234986 -0.42808167]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [0.32669714 0.0367759 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.83325219 -0.46620025]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.58332084 -1.18998823]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.64878952  1.61711071]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.93333574  2.08096194]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.59154126 -1.18791045]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.73799692 -0.52893706]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.78511741  0.8396421 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.20374869  2.16791886]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.38549656  2.30366029]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.12552779 -1.91617579]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.66786774 -1.29960625]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.78378691  0.86772404]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.47011867 -0.18507823]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.47597336  1.55466966]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.20508518 -1.8188381 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.93107133 -0.6231886 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.54986284 -2.29913574]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.21396546 -0.78228297]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.40820678 -0.16508531]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.33760198 -0.97754064]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [0.05198088 0.07598181]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.40418336  1.46208984]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.1316483  -0.79833895]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.3069061   0.48137648]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.78002165 -1.53779877]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.25716722 -0.90401083]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.34175967 -0.06705114]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.45493285 -0.01151207]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [-0.20259697  0.32326618]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [0.32161836 0.0379694 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.82902746  0.78527113]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.12302799 -1.9648589 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.3029166  -2.04968712]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.66880321  2.56055474]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.13117479 -1.78285239]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.12115381 -1.88566458]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.93520184 -1.61793727]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.68138757 -1.33259488]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.47705373  2.36685479]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.92315556 -0.52019951]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.57145916 -0.27365383]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.66102053  2.4813874 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [0.06696857 0.19218463]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.81522244  1.82223609]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.76684237  2.6580283 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.63083785  1.62238521]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.3770126  -0.21750235]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.14427976  0.2248132 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.00956615  1.97984678]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.74072579 -0.38644452]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [0.07439751 0.11154323]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.40857945  1.37616757]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.74615646 -1.49293294]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.51729347 -1.13083758]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.37201742 -2.14375153]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.37765365  0.45425347]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.28470429 -0.7807499 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.36144669  0.50091247]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.25853713  2.19496117]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.11398419  2.10148024]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.28960546  2.23890568]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.60919286  2.47303926]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.52617183  2.41134978]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.36473018 -1.10322853]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.37199577 -1.09522051]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [ 0.28590464 -0.03540572]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.74855817  2.00644456]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.08415016 -0.7398692 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.69930335  2.60572577]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.95694337  0.98837841]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.19098983 -0.11862413]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.78660348 -0.40739886]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.18784971 -0.81446644]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.26571862 -2.07899539]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.3827215  -1.04818065]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.47203469  0.47643558]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.79852662  1.79485297]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.44913553  2.32662458]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.31896825 -2.07190194]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.35354271  0.5134737 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.38070557 -0.98662541]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.54147813 -1.29843371]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.10393352 -1.74639228]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.64147078  2.49368253]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [-0.51306996  0.55942174]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [0.11870623 0.03827282]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.78845837 -1.50579926]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.44431001  0.5654816 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.454197    2.35496658]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.92959271  1.93913243]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.74802253  2.57198306]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.14638094 -0.79011748]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.22627083  1.25901566]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.26500399  1.31048237]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.84678408  2.68772194]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.49842089 -1.14954318]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.55474541  2.45120743]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.22043156 -0.88533124]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.31307163  1.24680672]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.74083004 -1.38857134]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.3688241  1.3747675]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.61834422  1.6843446 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [0.2058486  0.14625234]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.44864266 -1.09111811]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.82992775 -1.67395023]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.1343343   1.18511568]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.25307097 -0.76478008]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.0259747  -1.77605427]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.05021407  1.92085149]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.92411148  1.91739965]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.7989258   0.85906878]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.61260947  1.48875586]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.71646612  1.6790304 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.88821786 -0.53020694]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [-0.319087    0.48757245]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.55568812 -0.28198174]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.85427773  1.00948833]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.55843409 -1.30362792]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.25187477 -0.05807389]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.5121932  -0.18065121]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.04734267  1.10538042]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.88705527  1.80322324]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.48790942  2.34676061]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.21989448  1.32994114]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.46365001  1.47234749]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.58292731  0.78748161]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.23987334 -0.96786275]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.50523427  2.49197905]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.47242853  0.6895282 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.79931657  2.63566596]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.04208255  0.20563085]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.91968402 -0.56659033]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.74107539  2.57144951]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.61295935  2.49461142]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.37695403 -2.24450036]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.80038669 -0.44018328]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.32209777 -0.91491817]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.39729724  2.29313682]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.6554529   1.75498891]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.28787682 -0.01121185]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [0.29602838 0.03001119]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.45189251  1.50889696]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.11169451 -0.88530896]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.71347654 -1.30899118]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.31407225  0.49888529]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.00713558  1.94186028]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.58646992 -1.25090058]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.62707513  2.47673077]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.33841658 -0.9866985 ]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.58746113 -1.32580376]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.98418836 -0.60652485]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.17237834  2.06573585]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [0.06159763 0.19210121]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.81596444 -1.55860174]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.10405504 -1.78239144]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.80181597 -0.37562788]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.77311297 -0.30079943]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.84315165 -0.5089951 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.37397528  1.3829801 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.60974143  0.63887732]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.80366168  0.85464451]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.79272766 -1.72690864]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.09925365  1.99076783]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.51928458 -1.04061682]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.18231394  2.0877266 ]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.80420776  0.87543698]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.39189261  2.25559809]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.93465882  1.91276816]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.80339406  1.74489283]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.08390718  2.01334727]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.4381898   1.46866064]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 2.40175292 -2.02865256]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.30889299  0.19956651]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.30373703  1.29410266]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 1.74165143 -1.56288828]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-1.35399068  1.50096786]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-0.64741613  0.76351433]
+Outcomes:
+FHE              : negative sentiment!
+Plain-Precomputed: negative sentiment!
+Plain-PyTorch    : negative sentiment!
+Output logits Plain-Precomputed: [ 0.28337002 -0.04026022]
+Outcomes:
+FHE              : positive sentiment!
+Plain-Precomputed: positive sentiment!
+Plain-PyTorch    : positive sentiment!
+Output logits Plain-Precomputed: [-2.52009248  2.37560845]
